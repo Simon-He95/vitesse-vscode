@@ -2,6 +2,7 @@
   "publisher": "simonhe",
   "name": "vitesse",
   "displayName": "vitesse",
+  "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.10.5",
   "description": "vitesse",
@@ -45,7 +46,7 @@
     "release": "bumpp && pnpm run publish"
   },
   "devDependencies": {
-    "@simon_he/eslint-config": "^0.0.6",
+    "@antfu/eslint-config": "^2.7.0",
     "@types/node": "^18.18.12",
     "@types/vscode": "^1.84.2",
     "@vscode-use/utils": "^0.0.89",
