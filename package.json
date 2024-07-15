@@ -18,6 +18,11 @@
   "sponsor": {
     "url": "https://github.com/Simon-He95/sponsor"
   },
+  "keywords": [
+    "vscode",
+    "vscode-use",
+    "vscode-template"
+  ],
   "categories": [
     "Other"
   ],
