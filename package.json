@@ -28,11 +28,8 @@
   ],
   "main": "./dist/index.js",
   "icon": "icon.png",
-  "files": [
-    "dist"
-  ],
   "engines": {
-    "vscode": "^1.92.0"
+    "vscode": "^1.93.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -49,17 +46,15 @@
     "release": "nr build --minify && bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.27.0",
-    "@types/node": "^18.19.45",
-    "@types/vscode": "^1.92.0",
+    "@antfu/eslint-config": "^3.5.1",
+    "@types/node": "^18.19.50",
+    "@types/vscode": "^1.93.0",
     "@vscode-use/utils": "0.1.18",
-    "@vscode/vsce": "^3.0.0",
-    "bumpp": "^9.5.1",
-    "eslint": "^9.9.0",
-    "esno": "^0.16.3",
-    "pnpm": "^9.7.1",
-    "tsup": "^6.7.0",
-    "typescript": "^5.5.4",
+    "@vscode/vsce": "^3.1.0",
+    "bumpp": "^9.5.2",
+    "eslint": "^9.10.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2",
     "vitest": "^2.0.5"
   }
 }
