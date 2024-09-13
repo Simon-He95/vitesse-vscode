@@ -2,7 +2,7 @@
   "publisher": "simonhe",
   "name": "vitesse",
   "displayName": "vitesse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "vitesse",
   "author": "Simon He <https://github.com/Simon-He95>",
   "license": "MIT",
@@ -35,9 +35,9 @@
     "onStartupFinished"
   ],
   "scripts": {
-    "dev": "tsup src/index.ts --external vscode --watch",
+    "dev": "nr build",
     "test": "vitest",
-    "build": "tsup src/index.ts --external vscode --minify",
+    "build": "tsup src/index.ts --external vscode",
     "pack": "vsce package --no-dependencies",
     "lint": "eslint . --cache",
     "lint:fix": "nr lint --fix",
