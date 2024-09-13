@@ -1,5 +1,5 @@
-import type { Disposable } from 'vscode'
 import { createExtension, getLocale, message } from '@vscode-use/utils'
+import type { Disposable } from 'vscode'
 
 export = createExtension(() => {
   const disposes: Disposable[] = []
