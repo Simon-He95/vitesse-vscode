@@ -5,5 +5,5 @@ export = createExtension(() => {
   const isZh = lan.includes('zh')
   message.info(isZh ? '你好' : 'Hello') // 发出消息弹窗
 }, () => {
-  
+
 })
