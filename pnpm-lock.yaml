@@ -15,11 +15,11 @@ importers:
         specifier: ^18.19.68
         version: 18.19.68
       '@types/vscode':
-        specifier: ^1.96.0
+        specifier: ^1.75.1
         version: 1.96.0
       '@vscode-use/utils':
-        specifier: 0.1.32
-        version: 0.1.32
+        specifier: 0.1.40
+        version: 0.1.40
       '@vscode/vsce':
         specifier: ^3.2.1
         version: 3.2.1
@@ -818,8 +818,8 @@ packages:
   '@vitest/utils@2.1.8':
     resolution: {integrity: sha512-dwSoui6djdwbfFmIgbIjX2ZhIoG7Ex/+xpxyiEgIGzjliY8xGkcpITKTlp6B4MgtGkF2ilvm97cPM96XZaAgcA==}
 
-  '@vscode-use/utils@0.1.32':
-    resolution: {integrity: sha512-l75jEYys/6zyLVEOuVud7bKv9SV5WrSNEVpuRtOoBp2znFfXgg2B2e/NaxQhqjaRJlCUiSoLYR0biXDbeaj/5w==}
+  '@vscode-use/utils@0.1.40':
+    resolution: {integrity: sha512-WrSooRGZ0plcp9ah4QlKf1zzruDS7/NqML93yawoQMp+6N2Okk/3qMo2DyEgHKkedZGxMI5FLfj1I96zxv7pCw==}
     engines: {vscode: ^1.92.0}
 
   '@vscode/vsce-sign-alpine-arm64@2.0.2':
@@ -3660,7 +3660,7 @@ snapshots:
       loupe: 3.1.2
       tinyrainbow: 1.2.0
 
-  '@vscode-use/utils@0.1.32': {}
+  '@vscode-use/utils@0.1.40': {}
 
   '@vscode/vsce-sign-alpine-arm64@2.0.2':
     optional: true

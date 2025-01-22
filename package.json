@@ -29,7 +29,7 @@
   "main": "./dist/index.js",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.75.1"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -48,8 +48,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^3.12.1",
     "@types/node": "^18.19.68",
-    "@types/vscode": "^1.96.0",
-    "@vscode-use/utils": "0.1.32",
+    "@types/vscode": "^1.75.1",
+    "@vscode-use/utils": "0.1.40",
     "@vscode/vsce": "^3.2.1",
     "bumpp": "^9.9.2",
     "eslint": "^9.17.0",
