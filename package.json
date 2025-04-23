@@ -3,6 +3,7 @@
   "name": "vitesse",
   "displayName": "vitesse",
   "version": "0.0.1",
+  "packageManager": "pnpm@10.9.0",
   "description": "vitesse",
   "author": "Simon He <https://github.com/Simon-He95>",
   "license": "MIT",
@@ -37,7 +38,7 @@
   "scripts": {
     "dev": "nr build",
     "test": "vitest",
-    "build": "tsup",
+    "build": "tsdown",
     "pack": "vsce package --no-dependencies",
     "lint": "eslint . --cache",
     "lint:fix": "nr lint --fix",
@@ -46,15 +47,15 @@
     "release": "nr build --minify && bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.12.1",
-    "@types/node": "^18.19.68",
-    "@types/vscode": "^1.75.1",
-    "@vscode-use/utils": "0.1.40",
-    "@vscode/vsce": "^3.2.1",
-    "bumpp": "^9.9.2",
-    "eslint": "^9.17.0",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "@antfu/eslint-config": "^3.16.0",
+    "@types/node": "^18.19.86",
+    "@types/vscode": "1.75.1",
+    "@vscode-use/utils": "0.1.54",
+    "@vscode/vsce": "^3.3.2",
+    "bumpp": "^9.11.1",
+    "eslint": "^9.25.1",
+    "tsdown": "^0.9.5",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
   }
 }
